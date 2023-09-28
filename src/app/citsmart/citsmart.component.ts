@@ -80,7 +80,6 @@ export class CitsmartComponent implements OnInit {
       state: { data: data }
     })
     this.dataService.setDataResult(data);
-    console.log("data >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ", data);
     }
 
 }
